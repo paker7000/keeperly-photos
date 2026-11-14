@@ -1,0 +1,39 @@
+# ==========================================
+# Keeperly Photos - App-Specific Exclusions
+# ==========================================
+_review_trash/
+analysis_report.json
+deletion_manifest.json
+cleanup_search_list.txt
+
+# Personal photo folders & Google Takeout archives
+my_google_photos/
+sample_photos/
+test_photos/
+Takeout/
+*.zip
+
+# ==========================================
+# Python & Testing Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# IDEs & OS System Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
